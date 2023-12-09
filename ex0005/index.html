@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interação com formularios</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <header>Apresente-se para nós</header>
+
+  <section>  <!--criando formulario-->
+
+    <form action="cad.php" method="get">
+      <label for="nome">Nome:</label>
+      <input type="text" name="nome" id="idnome">
+      <label for="sobrenome">Sobrenome:</label>
+      <input type="text" name="sobrenome" id="idsobrenome">
+      <input type="submit" value="Enviar">
+      
+      <p><a href="javascript:history.go(-1)">Voltar a pagina anterior!</a></p>
+    </form>
+  </section>
+  
+</body>
+</html>
