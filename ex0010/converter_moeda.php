@@ -8,7 +8,7 @@
 </head>
 <body>
   <main>
-    <h1>Conversor de moedas</h1>
+    <h1>Conversor de moedas com valor fixo</h1>
     
     <?php 
     
